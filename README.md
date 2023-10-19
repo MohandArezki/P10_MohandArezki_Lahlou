@@ -31,7 +31,7 @@ Les fonctionnalités suivantes sont à implémenter :
 
 ## B - Points d'accès de l'API
 
-Les points de términaison suivants sont implémentés pour couvrir les différentes fonctionnalités. Vous trouverez des détails dans la [documentation](https://documenter.getpostman.com/view/19098124/UVe9SpoZ).
+Les points de términaison suivants sont implémentés pour couvrir les différentes fonctionnalités. Vous trouverez des détails dans la [documentation](https://documenter.getpostman.com/view/26516132/2s9YR3bFPF).
 
 ### Gestion des utilisateurs
 
