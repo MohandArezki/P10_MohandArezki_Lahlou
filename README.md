@@ -3,8 +3,8 @@
     <br>
 </h3>
 
-# OpenClassrooms - Formation Développeur d'application Python - Projet 10
-Créez une API sécurisée RESTful en utilisant Django REST
+# OpenClassrooms - Formation Développeur d'application Python - 
+## Projet 10 - Créez une API sécurisée RESTful en utilisant Django REST
 
 ## Table des matières
 - [A - Présentation du projet](#a---présentation-du-projet)
