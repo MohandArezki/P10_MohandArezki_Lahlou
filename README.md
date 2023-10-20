@@ -135,9 +135,10 @@ python manage.py runserver
 ```
 
 4. Tester l API
-```
- Il est possible de naviguer dans l'API avec différents outils tel que la plateforme Postman.
-```
+
+  Il est possible de naviguer dans l'API avec la plateforme Postman en suivant ce lien 
+  [lien postman](https://bold-crescent-318416.postman.co/workspace/Mohand-Arezki-lahlou~b14e8541-b3a2-4047-8854-abb85868f19e/api/7852fd98-526e-42dd-8b12-df9641ffb7fe?version=24dc75a4-16a3-427b-a808-a3fd7d7a7c99)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
