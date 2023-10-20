@@ -11,9 +11,10 @@
 - [B - Points d'accès de l'API](#b---points-daccès-de-lapi)
 - [C - Obtenir le code source](#c---obtenir-le-code-source)
 - [D - Environnement virtuel](#d---environnement-virtuel)
-  - [1 - Créer l'environnement virtuel](#1---créer-lenvironnement-virtuel)
-  - [2 - Activer l'environnement virtuel](#2---activer-lenvironnement-virtuel)
-  - [3 - Installer les prérequis](#3---installer-les-prérequis)
+  - [1- Installer pipenv](#1--installer-pipenv)
+  - [2- Créer l environnement virtuel et generation de Pipfile](#2--créer-l-environnement-virtuel-et-generation-de-pipfile)
+  - [3- Activer l environnement virtuel](#3--activer-l-environnement-virtuel)
+  - [4- Installer de prerequis](#4--installer-de-prerequis)
 - [E - Utilisation](#e---utilisation)
 
 ## A - Présentation du projet
@@ -29,13 +30,13 @@ Les fonctionnalités suivantes sont à implémenter :
 
 <p align="right">(<a href="#top">retour en haut</a>)</p>
 
-## B - Points d'accès de l'API
+## B - les endpoints de l'API
 
-Les points de términaison suivants sont implémentés pour couvrir les différentes fonctionnalités. Vous trouverez des détails dans la [documentation](https://documenter.getpostman.com/view/26516132/2s9YR3bFPF).
+Les endpoints suivants sont implémentés pour couvrir les différentes fonctionnalités. Vous trouverez des détails dans la [documentation](https://documenter.getpostman.com/view/26516132/2s9YR3bFPF).
 
 ### Gestion des utilisateurs
 
-| Point d'accès                                       | Méthode HTTP | URL                                     |
+| Endpoint                                       | Méthode HTTP | URL                                     |
 |----------------------------------------------------|--------------|-----------------------------------------|
 | Inscription de l'utilisateur                        | POST         | {{base_url}}/register/                |
 | Connexion de l'utilisateur                         | POST         | {{base_url}}/login/                   |
@@ -46,7 +47,7 @@ Les points de términaison suivants sont implémentés pour couvrir les différe
 
 ### Gestion des projets
 
-| Point d'accès                                       | Méthode HTTP | URL                                     |
+| Endpoint                                      | Méthode HTTP | URL                                     |
 |----------------------------------------------------|--------------|-----------------------------------------|
 | Création d'un projet                               | POST         | {{base_url}}/projects/               |
 | Liste de tous les projets rattachés à l'utilisateur connecté | GET  | {{base_url}}/projects/       |
@@ -56,7 +57,7 @@ Les points de términaison suivants sont implémentés pour couvrir les différe
 
 ### Gestion des collaborateurs sur un projet
 
-| Point d'accès                                       | Méthode HTTP | URL                                     |
+| Endpoint                                       | Méthode HTTP | URL                                     |
 |----------------------------------------------------|--------------|-----------------------------------------|
 | Liste de tous les utilisateurs rattachés à un projet | GET  | {{base_url}}/projects/{{project_id}}/contributors/ |
 | Ajout d'un collaborateur à un projet               | POST         | {{base_url}}/projects/{{project_id}}/contributors/ |
@@ -64,7 +65,7 @@ Les points de términaison suivants sont implémentés pour couvrir les différe
 
 ### Gestion des problèmes
 
-| Point d'accès                                       | Méthode HTTP | URL                                     |
+| Endpoint                                    | Méthode HTTP | URL                                     |
 |----------------------------------------------------|--------------|-----------------------------------------|
 | Création de tâches et de problèmes                  | POST         | {{base_url}}/projects/{{project_id}}/issues/ |
 | Liste des problèmes liés à un projet               | GET          | {{base_url}}/projects/{{project_id}}/issues/ |
@@ -75,7 +76,7 @@ Les points de términaison suivants sont implémentés pour couvrir les différe
 
 ### Gestion des commentaires
 
-| Point d'accès                                       | Méthode HTTP | URL                                     |
+| Endpoint                                      | Méthode HTTP | URL                                     |
 |----------------------------------------------------|--------------|-----------------------------------------|
 | Création de commentaires                           | POST         | {{base_url}}/projects/{{project_id}}/issues/{{issue_id}}/comments/ |
 | Liste de tous les commentaires liés à un problème  | GET          | {{base_url}}/projects/{{project_id}}/issues/{{issue_id}}/comments/ |
@@ -97,21 +98,23 @@ git clone git@github.com:MohandArezki/P10_MohandArezki_Lahlou.git
 
 ## D - Environnement virtuel
 
-### 1 - Créer l'environnement virtuel
+### 1- Installer pipenv
 ```bash
-python3 -m venv env
+sudo apt install pipenv
+```
+### 2- Créer l environnement virtuel et generation de Pipfile
+```bash
+pipenv install
 ```
 
-### 2 - Activer l'environnement virtuel
+### 3- Activer l environnement virtuel
 ```bash
-source env/bin/activate
+pipenv shell
 ```
-
-### 3 - Installer les prérequis
+### 4- Installer de prerequis 
 ```bash
 pip install -r requirements.txt
 ```
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## E - Utilisation
