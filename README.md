@@ -30,8 +30,7 @@ Les fonctionnalités suivantes sont à implémenter :
 
 <p align="right">(<a href="#top">retour en haut</a>)</p>
 
-## B - les endpoints de l'API
-
+## B - Points d'accès de l'API
 Les endpoints suivants sont implémentés pour couvrir les différentes fonctionnalités. Vous trouverez des détails dans la [documentation](https://documenter.getpostman.com/view/26516132/2s9YR3bFPF).
 
 ### Gestion des utilisateurs
@@ -151,5 +150,12 @@ python manage.py runserver
 | Anatole         | P@ssword123    |
 | Almira          | P@ssword123    |
 | Fidel           | P@ssword123    |
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<h3 align="center">
+    <img alt="Logo" title="#logo" src="assets/validation.png">
+    <br>
+</h3>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
