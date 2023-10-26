@@ -154,8 +154,7 @@ python manage.py runserver
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" src="assets/validation.png">
+    <img alt="validation" title="#validation" src="assets/validation.png">
     <br>
 </h3>
-
 <p align="right">(<a href="#top">back to top</a>)</p>
