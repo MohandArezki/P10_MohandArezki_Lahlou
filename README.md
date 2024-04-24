@@ -3,8 +3,12 @@
     <br>
 </h3>
 
-# OpenClassrooms - Formation Développeur d'application Python - 
-## Projet 10 - Créez une API sécurisée RESTful en utilisant Django REST
+## Projet 10
+Créez une API sécurisée RESTful en utilisant Django REST
+## Objectifs pédagogiques
+1. Implémentez une suite de tests Python
+2. Debugger le code d’une application Python
+3. Gérer les erreurs et les exceptions en Python
 
 ## Table des matières
 - [A - Présentation du projet](#a---présentation-du-projet)
